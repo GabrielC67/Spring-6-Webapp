@@ -1,4 +1,4 @@
-package webapp.springframework.spring_6_webapp;
+package guru.springframework.spring6webapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
