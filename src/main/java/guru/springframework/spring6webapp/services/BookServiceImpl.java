@@ -5,7 +5,7 @@ import guru.springframework.spring6webapp.repositories.BookRepository;
 import org.springframework.stereotype.Service;
 
 @Service
-public class BookServiceImpl implements BookServices{
+public class BookServiceImpl implements BookService {
 
     private final BookRepository bookRepository;
 

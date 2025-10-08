@@ -15,6 +15,7 @@ public class Publisher {
     private String address;
     private String city;
     private String zipCode;
+    private String state;
 
     @OneToMany(mappedBy = "publisher")
     private Set<Book> books;
@@ -49,6 +50,14 @@ public class Publisher {
 
     public void setCity(String city) {
         this.city = city;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
     }
 
     public String getZipCode() {
